@@ -1,0 +1,51 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ff9800;
+    padding: 15px 30px;
+    color: white;
+  }
+  
+  .logo a {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #333;
+  }
+  
+  .login-btn {
+    background: white;
+    color: #ff9800;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .login-btn:hover {
+    background: #f2f2f2;
+  }
+  
